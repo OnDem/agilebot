@@ -1,0 +1,13 @@
+{
+	"name": "agilebot",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "nodemon agilebot.js"
+	},
+	"dependencies": {
+		"connect": "*",
+		"teleapi": "*",
+		"mongoose": "*"
+	}
+}
