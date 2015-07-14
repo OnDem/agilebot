@@ -1,13 +1,13 @@
 {
 	"name": "agilebot",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"private": true,
 	"scripts": {
-		"start": "nodemon agilebot.js"
+		"start": "nodemon agilebot"
 	},
 	"dependencies": {
-		"connect": "*",
-		"teleapi": "*",
-		"mongoose": "*"
+		"mongoose": "*",
+		"lodash": "*",
+		"telegram-bot": "*"
 	}
 }
